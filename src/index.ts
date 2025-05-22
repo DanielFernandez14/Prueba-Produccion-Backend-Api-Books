@@ -3,7 +3,8 @@ import { Schema, model } from "mongoose"
 import { connectMongoDB } from "./config/mongo"
 process.loadEnvFile()
 import cors from "cors"
-
+import dotenv from "dotenv"
+dotenv.config()
 
 //1234
 const PORT = process.env.PORT
