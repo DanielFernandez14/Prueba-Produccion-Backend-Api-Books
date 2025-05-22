@@ -3,7 +3,7 @@ import { Schema, model } from "mongoose"
 import { connectMongoDB } from "./config/mongo"
 import cors from "cors"
 import dotenv from "dotenv" 
-// require('dotenv').config();
+dotenv.config();
 // process.loadEnvFile()
 //1234
 const PORT = process.env.PORT
