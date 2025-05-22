@@ -1,6 +1,5 @@
 import {connect} from "mongoose"
-import dotenv from "dotenv"
-// process.loadEnvFile()
+process.loadEnvFile()
 
 
 const URI_DB = process.env.URI_DB || ""
